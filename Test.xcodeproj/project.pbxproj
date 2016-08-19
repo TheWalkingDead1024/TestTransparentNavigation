@@ -15,6 +15,18 @@
 		F44DED001D65882C00E70A38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44DECFE1D65882C00E70A38 /* LaunchScreen.storyboard */; };
 		F44DED0B1D65882C00E70A38 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F44DED0A1D65882C00E70A38 /* TestTests.m */; };
 		F44DED161D65882C00E70A38 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F44DED151D65882C00E70A38 /* TestUITests.m */; };
+		F44DED311D65883F00E70A38 /* MLTransparentNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = F44DED251D65883F00E70A38 /* MLTransparentNavigation.m */; };
+		F44DED321D65883F00E70A38 /* MLTransparentNavigationDragPop.m in Sources */ = {isa = PBXBuildFile; fileRef = F44DED281D65883F00E70A38 /* MLTransparentNavigationDragPop.m */; };
+		F44DED331D65883F00E70A38 /* MLTransparentNavigationPopAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F44DED2A1D65883F00E70A38 /* MLTransparentNavigationPopAnimator.m */; };
+		F44DED341D65883F00E70A38 /* MLTransparentNavigationPushAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F44DED2C1D65883F00E70A38 /* MLTransparentNavigationPushAnimator.m */; };
+		F44DED351D65883F00E70A38 /* UINavigationBar+Transparent.m in Sources */ = {isa = PBXBuildFile; fileRef = F44DED2E1D65883F00E70A38 /* UINavigationBar+Transparent.m */; };
+		F44DED361D65883F00E70A38 /* UIViewController+TransparentNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = F44DED301D65883F00E70A38 /* UIViewController+TransparentNavigation.m */; };
+		F44DED391D65888F00E70A38 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F44DED381D65888F00E70A38 /* SecondViewController.m */; };
+		F44DED3C1D65897600E70A38 /* UIScreen+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F44DED3B1D65897600E70A38 /* UIScreen+Frame.m */; };
+		F44DED3F1D6589B700E70A38 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F44DED3E1D6589B700E70A38 /* UIView+Frame.m */; };
+		F44DED421D65B28500E70A38 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F44DED411D65B28500E70A38 /* ThirdViewController.m */; };
+		F44DED451D65B43D00E70A38 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F44DED441D65B43D00E70A38 /* FourthViewController.m */; };
+		F44DED481D669A6B00E70A38 /* UINavigationController+Transparent.m in Sources */ = {isa = PBXBuildFile; fileRef = F44DED471D669A6B00E70A38 /* UINavigationController+Transparent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,31 @@
 		F44DED111D65882C00E70A38 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44DED151D65882C00E70A38 /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		F44DED171D65882C00E70A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44DED241D65883F00E70A38 /* MLTransparentNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTransparentNavigation.h; sourceTree = "<group>"; };
+		F44DED251D65883F00E70A38 /* MLTransparentNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTransparentNavigation.m; sourceTree = "<group>"; };
+		F44DED261D65883F00E70A38 /* MLTransparentNavigationColorSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTransparentNavigationColorSource.h; sourceTree = "<group>"; };
+		F44DED271D65883F00E70A38 /* MLTransparentNavigationDragPop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTransparentNavigationDragPop.h; sourceTree = "<group>"; };
+		F44DED281D65883F00E70A38 /* MLTransparentNavigationDragPop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTransparentNavigationDragPop.m; sourceTree = "<group>"; };
+		F44DED291D65883F00E70A38 /* MLTransparentNavigationPopAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTransparentNavigationPopAnimator.h; sourceTree = "<group>"; };
+		F44DED2A1D65883F00E70A38 /* MLTransparentNavigationPopAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTransparentNavigationPopAnimator.m; sourceTree = "<group>"; };
+		F44DED2B1D65883F00E70A38 /* MLTransparentNavigationPushAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTransparentNavigationPushAnimator.h; sourceTree = "<group>"; };
+		F44DED2C1D65883F00E70A38 /* MLTransparentNavigationPushAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTransparentNavigationPushAnimator.m; sourceTree = "<group>"; };
+		F44DED2D1D65883F00E70A38 /* UINavigationBar+Transparent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Transparent.h"; sourceTree = "<group>"; };
+		F44DED2E1D65883F00E70A38 /* UINavigationBar+Transparent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Transparent.m"; sourceTree = "<group>"; };
+		F44DED2F1D65883F00E70A38 /* UIViewController+TransparentNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TransparentNavigation.h"; sourceTree = "<group>"; };
+		F44DED301D65883F00E70A38 /* UIViewController+TransparentNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TransparentNavigation.m"; sourceTree = "<group>"; };
+		F44DED371D65888F00E70A38 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F44DED381D65888F00E70A38 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F44DED3A1D65897600E70A38 /* UIScreen+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Frame.h"; sourceTree = "<group>"; };
+		F44DED3B1D65897600E70A38 /* UIScreen+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Frame.m"; sourceTree = "<group>"; };
+		F44DED3D1D6589B700E70A38 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		F44DED3E1D6589B700E70A38 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		F44DED401D65B28500E70A38 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		F44DED411D65B28500E70A38 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		F44DED431D65B43D00E70A38 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		F44DED441D65B43D00E70A38 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		F44DED461D669A6B00E70A38 /* UINavigationController+Transparent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Transparent.h"; sourceTree = "<group>"; };
+		F44DED471D669A6B00E70A38 /* UINavigationController+Transparent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Transparent.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +138,11 @@
 		F44DECEF1D65882C00E70A38 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				F44DED3D1D6589B700E70A38 /* UIView+Frame.h */,
+				F44DED3E1D6589B700E70A38 /* UIView+Frame.m */,
+				F44DED3A1D65897600E70A38 /* UIScreen+Frame.h */,
+				F44DED3B1D65897600E70A38 /* UIScreen+Frame.m */,
+				F44DED231D65883F00E70A38 /* MLTransparentNavigation */,
 				F44DECF31D65882C00E70A38 /* AppDelegate.h */,
 				F44DECF41D65882C00E70A38 /* AppDelegate.m */,
 				F44DECF61D65882C00E70A38 /* ViewController.h */,
@@ -110,6 +152,12 @@
 				F44DECFE1D65882C00E70A38 /* LaunchScreen.storyboard */,
 				F44DED011D65882C00E70A38 /* Info.plist */,
 				F44DECF01D65882C00E70A38 /* Supporting Files */,
+				F44DED371D65888F00E70A38 /* SecondViewController.h */,
+				F44DED381D65888F00E70A38 /* SecondViewController.m */,
+				F44DED401D65B28500E70A38 /* ThirdViewController.h */,
+				F44DED411D65B28500E70A38 /* ThirdViewController.m */,
+				F44DED431D65B43D00E70A38 /* FourthViewController.h */,
+				F44DED441D65B43D00E70A38 /* FourthViewController.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -138,6 +186,28 @@
 				F44DED171D65882C00E70A38 /* Info.plist */,
 			);
 			path = TestUITests;
+			sourceTree = "<group>";
+		};
+		F44DED231D65883F00E70A38 /* MLTransparentNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				F44DED241D65883F00E70A38 /* MLTransparentNavigation.h */,
+				F44DED251D65883F00E70A38 /* MLTransparentNavigation.m */,
+				F44DED261D65883F00E70A38 /* MLTransparentNavigationColorSource.h */,
+				F44DED271D65883F00E70A38 /* MLTransparentNavigationDragPop.h */,
+				F44DED281D65883F00E70A38 /* MLTransparentNavigationDragPop.m */,
+				F44DED291D65883F00E70A38 /* MLTransparentNavigationPopAnimator.h */,
+				F44DED2A1D65883F00E70A38 /* MLTransparentNavigationPopAnimator.m */,
+				F44DED2B1D65883F00E70A38 /* MLTransparentNavigationPushAnimator.h */,
+				F44DED2C1D65883F00E70A38 /* MLTransparentNavigationPushAnimator.m */,
+				F44DED2D1D65883F00E70A38 /* UINavigationBar+Transparent.h */,
+				F44DED2E1D65883F00E70A38 /* UINavigationBar+Transparent.m */,
+				F44DED2F1D65883F00E70A38 /* UIViewController+TransparentNavigation.h */,
+				F44DED301D65883F00E70A38 /* UIViewController+TransparentNavigation.m */,
+				F44DED461D669A6B00E70A38 /* UINavigationController+Transparent.h */,
+				F44DED471D669A6B00E70A38 /* UINavigationController+Transparent.m */,
+			);
+			path = MLTransparentNavigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +340,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F44DED3F1D6589B700E70A38 /* UIView+Frame.m in Sources */,
+				F44DED421D65B28500E70A38 /* ThirdViewController.m in Sources */,
+				F44DED3C1D65897600E70A38 /* UIScreen+Frame.m in Sources */,
+				F44DED391D65888F00E70A38 /* SecondViewController.m in Sources */,
+				F44DED351D65883F00E70A38 /* UINavigationBar+Transparent.m in Sources */,
 				F44DECF81D65882C00E70A38 /* ViewController.m in Sources */,
 				F44DECF51D65882C00E70A38 /* AppDelegate.m in Sources */,
 				F44DECF21D65882C00E70A38 /* main.m in Sources */,
+				F44DED341D65883F00E70A38 /* MLTransparentNavigationPushAnimator.m in Sources */,
+				F44DED311D65883F00E70A38 /* MLTransparentNavigation.m in Sources */,
+				F44DED331D65883F00E70A38 /* MLTransparentNavigationPopAnimator.m in Sources */,
+				F44DED481D669A6B00E70A38 /* UINavigationController+Transparent.m in Sources */,
+				F44DED361D65883F00E70A38 /* UIViewController+TransparentNavigation.m in Sources */,
+				F44DED451D65B43D00E70A38 /* FourthViewController.m in Sources */,
+				F44DED321D65883F00E70A38 /* MLTransparentNavigationDragPop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
